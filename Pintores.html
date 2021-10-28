@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Artista</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="EstilosDos.css">
+    <link rel="shortcut icon" href="imagenes/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <div class="presentacionpintores">
+            <p>Estos son los pintores destacados de esta semana!</p>
+        </div>
+        <div class="titulopintores">
+            <h1>MUNDO ARTISTA</h1>
+        </div>
+        <div class="regresarinicio">
+            <a href="Index.html"><h2>VOLVER AL INICIO</h2></a>
+        </div>
+    </header>
+    <section>
+        <div class="p1"><img src="imagenes/Pintores/p1.jpg" alt=""></div>
+        <div class="p2"><img src="imagenes/Pintores/p2.webp" alt=""></div>
+        <div class="p3"><img src="imagenes/Pintores/p3.jpg" alt=""></div>
+        <div class="p4"><img src="imagenes/Pintores/p4.jpg" alt=""></div>
+        <div class="p5"><img src="imagenes/Pintores/5.jpg" alt=""></div>
+        <div class="p6"><img src="imagenes/Pintores/p6.webp" alt=""></div>
+    </section>
+    <footer>
+        <a href="paginas/Nosotros.html"><h5>NOSOTROS</h5></a>
+        <a href="paginas/Contacto.html"><h5>CONTACTO</h5></a>
+        <a href="paginas/Pintores.html"><h5>REFRESCAR</h5></a>
+    </footer>
+    <style>
+    section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    section div {
+        margin-top: 5em;
+        margin-bottom: 2em;
+        width: 29%;
+        height: 55em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section div img {
+        width: 100%;
+        height: 100%;
+    }
+    .p1::before {
+        content: 'Pablo Picasso (1881-1973), pintor español, es posiblemente uno de los pintores más famosos del mundo y, sin duda, el pintor más famoso del siglo XX.';
+        opacity: 0;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p1:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    .p2::before {
+        content: 'El pintor español Diego Velázquez nació alrededor del 6 de junio de 1599 en Sevilla, España. Aunque sus primeras pinturas eran de temática religiosa, se hizo famoso por sus retratos realistas y complejos como miembro de la corte del rey Felipe IV.';
+        opacity: 0;
+        margin-left: 33em;
+        margin-right: 33em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p2:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    .p3::before {
+        content: 'Salvador Dalí (1904-1989), pintor español, conocido por encarnar el Surrealismo y el Dadaísmo más allá de sus obras. Polifacético, excéntrico y apasionado devoto de su esposa Gala.';
+        opacity: 0;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p3:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    .p4::before {
+        content: 'No se puede hablar de los artistas más influyentes de todos los tiempos sin mencionar a Vincent Van Gogh. Su forma de pintura existió dentro de la era del impresionismo y el postimpresionismo.';
+        opacity: 0;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p4:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    .p5::before {
+        content: 'El greco fue un pintor del final del Renacimiento que desarrolló un estilo muy personal en sus obras de madurez. Hasta los 26 años vivió en Creta. En 1577 se estableció en Toledo (España), donde vivió y trabajó el resto de su vida.';
+        opacity: 0;
+        margin-left: 33em;
+        margin-right: 33em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p5:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    .p6::before {
+        content: 'lorem id cum autem nulla nostrum deleniti eaque sed distinctio, laudantium nisi dignissimos!';
+        opacity: 0;
+        margin-left: 5em;
+        margin-right: 5em;
+        padding: 1em;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 100px 100px rgb(29, 99, 99);
+        color: black;
+        font-size: 3em;
+        transition: 1s;
+    }
+    .p6:hover::before {
+        opacity: 1;
+        transition: 2s;
+    }
+    </style>
+</body>
+</html>
